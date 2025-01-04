@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:rgb(252, 218, 167);
+    height: 100vh;
+    width: 100vw;
+}
+
+.main-box{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+.box{
+    background-color: red;
+    height: 70px;
+    width: 70px;
+    margin: 20px;  
+}
